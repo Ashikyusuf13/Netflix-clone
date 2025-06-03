@@ -18,12 +18,13 @@ import {
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA6OkRdZfLfn_9gWAh_cLfSvkPadbV9HiI",
-  authDomain: "netflex-clone-f742a.firebaseapp.com",
-  projectId: "netflex-clone-f742a",
-  storageBucket: "netflex-clone-f742a.firebasestorage.app",
-  messagingSenderId: "433245337255",
-  appId: "1:433245337255:web:814f70751222d010090d82"
+  apiKey: "AIzaSyAsyLkGdVMeFex6rPTa0KEmJNddeq1PJuY",
+  authDomain: "redfliix-clone.firebaseapp.com",
+  projectId: "redfliix-clone",
+  storageBucket: "redfliix-clone.firebasestorage.app",
+  messagingSenderId: "859564838979",
+  appId: "1:859564838979:web:e7c77fb9c9a1bb855c44f6",
+  measurementId: "G-490DKW8H7W"
 };
 
 const provider = new GoogleAuthProvider();
