@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import logo from "../assets/logo.png";
 import search_icon from "../assets/search_icon.svg";
 import bell_icon from "../assets/bell_icon.svg";
-import smile_icon from "../assets/profile_img2.png";
-import caret_icon from "../assets/caret_icon.svg";
 import { useNavigate } from "react-router-dom";
 import { logout } from "../Firebase";
 
@@ -77,12 +75,6 @@ const Navbar = () => {
           className="h-5 w-5 cursor-pointer hidden md:block"
         />
         <div className="relative group">
-          <img
-            src={smile_icon}
-            alt="Profile"
-            className="h-7 w-7 rounded hidden "
-          />
-
           <button
             onClick={() => logout()}
             className="text-white px-2 py-1 cursor-pointer bg-red-600 rounded mt-2 hover:bg-red-500 border-none"
