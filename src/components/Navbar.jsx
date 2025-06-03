@@ -80,7 +80,7 @@ const Navbar = () => {
           <img
             src={smile_icon}
             alt="Profile"
-            className="h-7 w-7 rounded hidden md:block"
+            className="h-7 w-7 rounded hidden "
           />
 
           <button
