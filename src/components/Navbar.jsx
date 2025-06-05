@@ -17,7 +17,7 @@ const Navbar = () => {
           onClick={() => navigate("/")}
           src={logo}
           alt="Logo"
-          className="h-8 w-auto cursor-pointer"
+          className="h-15 w-30 cursor-pointer"
         />
         <ul className="hidden md:flex gap-6 text-sm">
           <li className="hover:cursor-pointer hover:text-red-400">Home</li>
